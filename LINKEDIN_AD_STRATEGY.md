@@ -49,7 +49,7 @@ Focus on education, not administration.
 **CTA:** Watch Demo
 
 ### Option 3: The "All-in-One" Ecosystem (The "Premium" angle)
-**Headline:** The Future of School Management is Automated.
+**Headline:** The Future of School Admissions is Automated.
 **Primary Text:**
 Your school deserves more than a basic website. It needs a 24/7 Growth Engine. 🚀
 
