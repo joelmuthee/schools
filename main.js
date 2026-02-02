@@ -185,6 +185,26 @@ window.showServicesPopup = function (serviceName) {
     const container = document.getElementById('services-needed-popup');
     if (!container) return;
 
+    // EXEMPTION: For Schools Solution, we ALWAYS want the hardcoded form (gdiKGB1iMuF2PVoxVkVi)
+    if (serviceName === 'School Growth System') {
+        container.classList.remove('hidden');
+        container.style.display = 'block';
+
+        // Re-center logic
+        // container.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Removed as per request
+
+        // Add close logic
+        const closeOnBackgroundClick = (e) => {
+            if (e.target === container) {
+                container.classList.add('hidden');
+                container.style.display = 'none';
+                container.removeEventListener('click', closeOnBackgroundClick);
+            }
+        };
+        container.addEventListener('click', closeOnBackgroundClick);
+        return;
+    }
+
     // Use provided service or default
     const targetService = serviceName || 'Google Reviews';
     const iframe = container.querySelector('iframe');
