@@ -196,7 +196,7 @@ window.showServicesPopup = function (serviceName) {
 
     if (container.dataset.opened === 'true') {
         // Subsequent Opens
-        if (!isServiceMatch && !iframe.id.includes('popup-1fDfreN5oMYY5wp3VN8j') && !iframe.id.includes('popup-ntPz2EvEej9hA4iFW83Q') && !iframe.id.includes('popup-z4nalKLbhSGK9yUOnMoh') && !iframe.id.includes('popup-05EkqHahM76Tfa4ttGZc') && !iframe.id.includes('popup-AP1GiOfA6x5vbBsgrFF9') && !iframe.id.includes('popup-EOcnKMN2iPUJX53QjWf8') && !iframe.id.includes('popup-qE7JEAuhYOJqcmXTTvhv') && !iframe.id.includes('popup-gQP0iBekFMuwQCi7M2sI') && !iframe.id.includes('popup-zqMk0zUNQWj0Wc8Ym4K5')) {
+        if (!isServiceMatch && !iframe.id.includes('popup-1fDfreN5oMYY5wp3VN8j') && !iframe.id.includes('popup-ntPz2EvEej9hA4iFW83Q') && !iframe.id.includes('popup-z4nalKLbhSGK9yUOnMoh') && !iframe.id.includes('popup-05EkqHahM76Tfa4ttGZc') && !iframe.id.includes('popup-AP1GiOfA6x5vbBsgrFF9') && !iframe.id.includes('popup-EOcnKMN2iPUJX53QjWf8') && !iframe.id.includes('popup-qE7JEAuhYOJqcmXTTvhv') && !iframe.id.includes('popup-gQP0iBekFMuwQCi7M2sI') && !iframe.id.includes('popup-zqMk0zUNQWj0Wc8Ym4K5') && !iframe.id.includes('popup-gdiKGB1iMuF2PVoxVkVi')) {
             // Only overwrite if it's NOT one of our customized manual forms
             console.log('Switching service, reloading...');
             container.innerHTML = getServicesPopupHTML(targetService);
@@ -223,7 +223,8 @@ window.showServicesPopup = function (serviceName) {
             iframe.id.includes('EOcnKMN2iPUJX53QjWf8') || // CRM
             iframe.id.includes('qE7JEAuhYOJqcmXTTvhv') || // WhatsApp
             iframe.id.includes('gQP0iBekFMuwQCi7M2sI') || // Email Marketing
-            iframe.id.includes('zqMk0zUNQWj0Wc8Ym4K5')    // Online Calendar
+            iframe.id.includes('zqMk0zUNQWj0Wc8Ym4K5') || // Online Calendar
+            iframe.id.includes('gdiKGB1iMuF2PVoxVkVi')    // Schools Solution
         );
 
         if (!isCustomForm && !isServiceMatch && iframe) {
