@@ -14,19 +14,20 @@
 
 ## ✍️ Ad Copy Options
 
-### Option 1: The "Admissions Chaos" Angle (Pain/Agitation/Solution)
-**Headline:** Is your admissions team overwhelmed?
+### Option 1: The "Missed Opportunity" Angle (Revenue Focus)
+**Headline:** Stop losing enrollments to slow follow-ups.
 **Primary Text:**
-Stop losing prospective students to slow follow-ups and lost paperwork. 📉
+Every, single missed call or delayed email is an enrollment opportunity for your competitor. 📉
 
-Imagine an admissions office that runs *while you sleep*. With Essence Automations, you get:
-✅ AI Agents that answer parent queries 24/7
-✅ Automated tour booking synced to your calendar
-✅ A visual pipeline that nurtures every lead until enrollment
+In today's digital world, parents expect instant answers.
+Essence Automations equips your school with a 24/7 Growth Engine that:
+✅ Captures every inquiry instantly (no more lost leads)
+✅ Engages parents in English, Swahili, or French
+✅ Automates tour bookings & follow-ups
 
-Join forward-thinking schools like St. Christopher's International who are modernizing their growth.
+Don't let admin bottlenecks slow your growth.
 
-👉 [link]See how it works here[/link]
+👉 [link]See how St. Christopher's did it[/link]
 
 **CTA:** Learn More
 
