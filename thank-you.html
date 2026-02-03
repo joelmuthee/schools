@@ -10,17 +10,21 @@
         gtag('js', new Date());
 
         gtag('config', 'G-7BC3LFX851');
+
+        // Explicitly track as a Lead
+        gtag('event', 'generate_lead', {
+            'currency': 'USD',
+            'value': 0
+        });
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You | Essence Automations</title>
-    <meta name="description"
-        content="Thank you for your interest. We will be in touch shortly.">
+    <meta name="description" content="Thank you for your interest. We will be in touch shortly.">
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Thank You | Essence Automations">
-    <meta property="og:description"
-        content="Thank you for your interest. We will be in touch shortly.">
+    <meta property="og:description" content="Thank you for your interest. We will be in touch shortly.">
     <meta property="og:image" content="https://essenceautomations.com/social-share.png">
     <meta property="og:url" content="https://schools.essenceautomations.com/thank-you.html">
     <link rel="icon" type="image/png" href="favicon.png">
@@ -93,14 +97,16 @@ and
         }
     </style>
     <main>
-        <section class="hero" style="justify-content: center; text-align: center; min-height: 60vh; display: flex; align-items: center;">
+        <section class="hero"
+            style="justify-content: center; text-align: center; min-height: 60vh; display: flex; align-items: center;">
             <div class="hero-content">
                 <h1 class="fade-in-up">Thank <span class="gradient-text">You!</span></h1>
                 <p class="fade-in-up delay-1" style="font-size: 1.2rem; max-width: 600px; margin: 0 auto;">
-                    We've received your inquiry. One of our admissions experts will be in touch shortly to schedule your free demo.
+                    We've received your inquiry. One of our admissions experts will be in touch shortly to schedule your
+                    free demo.
                 </p>
                 <div class="hero-buttons" style="margin-top: 3rem; display: flex; gap: 1rem; justify-content: center;">
-                    <a href="index.html" class="btn-primary" 
+                    <a href="index.html" class="btn-primary"
                         style="padding: 12px 24px; text-decoration: none; border-radius: 50px; border: 1px solid #ff6b00; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); color: white; transition: all 0.3s ease;">
                         Back to Home
                     </a>
