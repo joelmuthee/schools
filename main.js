@@ -51,7 +51,7 @@ document.querySelectorAll('.grid-container, .benefit-cards-grid, .two-column-gri
 
 // Global Animation Initializer
 // Global Animation Initializer - "Reveal on Scroll" for entire website
-const animateElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, img, .btn, .btn-primary, .btn-secondary, .btn-cta, .card, .stat-card, .benefit-card, .review-card, .service-item, .project-card, .gallery-item, .vm-card, .about-text, .contact-form, .map-wrapper, .marquee-wrapper, .faq-item, .star-rating, .hero-buttons');
+const animateElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, img, .btn, .btn-primary, .btn-secondary, .btn-cta, .card, .stat-card, .benefit-card, .review-card, .service-item, .project-card, .gallery-item, .vm-card, .about-text, .contact-form, .map-wrapper, .marquee-wrapper, .faq-item, .star-rating, .hero-buttons, .hero-proof');
 
 animateElements.forEach((el, index) => {
     // Exclude FAQ content from animation
