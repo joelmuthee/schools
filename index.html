@@ -98,35 +98,29 @@ and
                     Staff Recruitment.</p>
                 <div class="hero-buttons"
                     style="margin-top: 3rem; display: flex; flex-direction: column; align-items: center; gap: 2rem;">
-                    <!-- Buttons Row -->
-                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; width: 100%;">
-                        <button onclick="showServicesPopup('School Growth System')" class="btn-primary"
-                            data-ga-category="Schools Hero" data-ga-label="Get A Free Demo (Top)"
-                            style="border:none; cursor:pointer; font-family: inherit; font-size: 1.1rem; padding: 1rem 2rem; box-shadow: 0 4px 25px rgba(255, 107, 0, 0.4);">Get
-                            A Free
-                            Demo</button>
-                        <a href="#st-christophers" class="btn-secondary"
-                            style="padding: 1rem 2rem; text-decoration: none; border-radius: 50px; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); color: white; transition: all 0.3s ease; display: inline-flex; align-items: center; justify-content: center;">See
-                            Case
-                            Study</a>
-                    </div>
+                    <!-- Primary CTA -->
+                    <button onclick="showServicesPopup('School Growth System')" class="btn-primary"
+                        data-ga-category="Schools Hero" data-ga-label="Get A Free Demo (Top)"
+                        style="border:none; cursor:pointer; font-family: inherit; font-size: 1.1rem; padding: 1rem 3rem; box-shadow: 0 4px 25px rgba(255, 107, 0, 0.4);">Get
+                        A Free
+                        Demo</button>
 
-                    <!-- Micro-Proof Section -->
-                    <div class="hero-proof fade-in-up delay-2"
+                    <!-- Micro-Proof Section (Clickable) -->
+                    <div class="hero-proof"
                         style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
 
-                        <!-- Logos Row -->
+                        <!-- Clickable Pill -->
                         <div style="display: flex; align-items: center; justify-content: center;">
-                            <div
-                                style="display: flex; align-items: center; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 8px 20px; border-radius: 50px; border: 1px solid rgba(255, 255, 255, 0.1);">
+                            <a href="#st-christophers" class="hero-proof-pill fade-in-up delay-2"
+                                style="display: flex; align-items: center; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 8px 20px; border-radius: 50px; border: 1px solid rgba(255, 255, 255, 0.1); text-decoration: none; cursor: pointer; transition: all 0.3s ease;">
                                 <div style="display: flex; align-items: center; margin-right: 12px;">
-                                    <img src="st_christophers_logo.jpg" alt="St Christopher's"
+                                    <img src="st_christophers_logo.jpg" alt="St Christopher's" class="no-animate"
                                         style="height: 40px; width: auto; border-radius: 6px; border: 2px solid rgba(255,255,255,0.8); object-fit: contain; background-color: white;">
                                 </div>
                                 <span
                                     style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.9); font-weight: 500;">Trusted
-                                    by Schools</span>
-                            </div>
+                                    by Schools &rarr;</span>
+                            </a>
                         </div>
 
                         <!-- Text -->
