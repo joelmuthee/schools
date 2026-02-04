@@ -422,6 +422,22 @@ iframe.lc_reviews_widget {
 
 
 
+
+/* Hero Stats Grid Override */
+.stats-section .grid-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+@media (min-width: 769px) {
+    .stats-section .grid-container {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
 /* About Section */
 .about {
     padding: 5rem 5%;
