@@ -1466,7 +1466,7 @@ footer {
 /* Case Study Stats Grid */
 .case-study-stats-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     margin-bottom: 2rem;
     margin-top: 1rem;
@@ -1498,15 +1498,6 @@ footer {
         grid-template-columns: 1fr 1fr;
         /* Force 2 columns */
         gap: 0.8rem;
-    }
-
-    /* Target the 3rd item to span full width and center */
-    .case-study-stat-card:nth-child(3) {
-        grid-column: 1 / -1;
-        justify-self: center;
-        width: 100%;
-        max-width: 180px;
-        /* Constrain width so it looks good centered */
     }
 
     .case-study-stat-card {
