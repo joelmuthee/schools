@@ -430,6 +430,7 @@ iframe.lc_reviews_widget {
     gap: 1.5rem;
     justify-content: center;
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 @media (min-width: 769px) {
